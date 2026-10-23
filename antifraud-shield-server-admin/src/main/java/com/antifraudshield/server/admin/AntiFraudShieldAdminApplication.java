@@ -10,6 +10,7 @@ public class AntiFraudShieldAdminApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AntiFraudShieldAdminApplication.class, args);
+
     }
 
     @RestController 

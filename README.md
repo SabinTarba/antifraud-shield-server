@@ -14,6 +14,13 @@ security configuration, and application-specific services in their respective
 modules. Put only types that genuinely need to be shared in `common`; avoid
 putting application-specific behavior there.
 
+## Health checks
+
+Both applications expose the Spring Boot Actuator health endpoint:
+
+- API: `http://localhost:8080/actuator/health`
+- Admin: `http://localhost:8090/actuator/health`
+
 ## Requirements
 
 - JDK 17
